@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form For Pita</title>
+    <link rel="stylesheet" href="./styles/form.css" />
+    <link rel="stylesheet" href="./styles/table.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/blog.html">Go To Blog</a></li>
+          <li><a href="/form.html">Go To form</a></li>
+          <li><a href="/video.html">Go To video</a></li>
+          <li><a href="table.html">Go to Form</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Please fill up the form</h1>
+        <form>
+          <label for="name"
+            >Your Name :
+            <input id="name" type="text" placeholder="Your Name" />
+          </label>
+          <label for="email"
+            >Your Email :
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email"
+            />
+          </label>
+          <label for="phone"
+            >Your Phone :
+            <input type="text" placeholder="Your Phone" />
+          </label>
+          <fieldset>
+            <legend>Pick Once Info</legend>
+            <label for="info"
+              >Your Information
+              <input type="radio" name="infotwo" id="info" />Info 1
+            </label>
+            <label for="infotwo">
+              <input type="radio" name="infotwo" id="infotwo" /> Info 2
+            </label>
+            <label for="infotwo">
+              <input type="radio" name="infotwo" id="infotwo" /> Info 2
+            </label>
+          </fieldset>
+          <fieldset>
+            <label for="tometo">
+              Green Vegetables :
+              <input type="checkbox" name="" id="tometo" />Tometo
+            </label>
+            <label for="eggplant">
+              <input type="checkbox" name="" id="eggplant" /> Eggplant
+            </label>
+            <label for="poteto">
+              <input type="checkbox" name="" id="poteto" /> Poteto
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Your Review</legend>
+            <textarea name="" id="" cols="25" rows="5"></textarea>
+          </fieldset>
+          <input type="reset" value="Reset" />
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

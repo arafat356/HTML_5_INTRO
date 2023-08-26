@@ -1,0 +1,32 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+nav > ul > li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.header-one {
+  text-align: center;
+  background-color: yellowgreen;
+  padding: 20px;
+  font-weight: 800;
+  font-size: larger;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  text-align: right;
+}
+
+.ul-all {
+  text-decoration: none;
+  padding: 20px;
+  font-size: 30px;
+}
+
+#footer-end {
+  text-align: center;
+  background-color: aliceblue;
+  padding: 40;
+}
